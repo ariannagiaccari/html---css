@@ -1,0 +1,27 @@
+:root{
+    --primary-color: #ff6600;
+    --secondary-color: #333;
+    --link-hover: #555;
+    --border-radius: 8px;
+    
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    margin: 16px;
+    padding: 8px;
+
+}
+a:hover {
+    color: var(--link-hover)
+}

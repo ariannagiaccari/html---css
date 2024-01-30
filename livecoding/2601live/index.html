@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+    
+
+    </ul>
+    <button onclick="appendEl()">
+New element
+    </button>
+
+    <button onclick="removeEl()">
+remove element
+    </button>
+
+    <script>
+     function appendEl () {
+        const ul = document.querySelector("ul");
+        const li = document.createElement("li");
+        li.innerText = "Nuovo elemento";
+        ul.appendChild(li);
+     };
+function removeEl() {
+const ul = document.querySelector("ul");
+const lastEl = ul.lastElementChild;
+ul.removeChild(lastEl);
+
+}
+
+
+
+    </script>
+
+
+
+    
+</body>
+</html>
